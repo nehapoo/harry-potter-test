@@ -1,4 +1,4 @@
-const characters = fetch('http://hp-api.herokuapp.com/api/characters')
+const characters = fetch('https://hp-api.onrender.com/api/characters')
 .then(characters => characters.json())
 
 const btn = document.querySelector("[data-btn]");
